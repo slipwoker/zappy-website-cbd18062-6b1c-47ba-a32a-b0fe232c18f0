@@ -1,0 +1,57 @@
+# קו האמת — Generative Engine Optimization Map
+
+> A שירותי חקירה ואבטחה business.
+
+---
+
+## Pages
+
+### דף הבית
+https://-cbd18062.zappy5.app
+מכון פוליגרף מומלץ בישראל מציע שירותים לעורכי דין, בדיקת פוליגרף לעובדים ובדיקת פוליגרף פרטית. פתרונות חקירה ואבטחה מקצועיים.
+
+### שירותים
+https://-cbd18062.zappy5.app/services
+גלו את מגוון השירותים שלנו: בדיקת פוליגרף לעובדים, שירותים לעורכי דין, בדיקת פוליגרף פרטית וחקירות מקצועיות. מכון מומלץ בישראל.
+
+### אודות
+https://-cbd18062.zappy5.app/about
+הכירו את מכון קו האמת, מכון פוליגרף מומלץ בישראל. למעלה מ-15 שנות ניסיון בשירותים לעורכי דין, בדיקת פוליגרף לעובדים וחקירות פרטיות.
+
+### צור קשר
+https://-cbd18062.zappy5.app/contact
+צרו קשר עם מכון קו האמת למתן שירותים לעורכי דין, בדיקת פוליגרף לעובדים ובדיקת פוליגרף פרטית. פגישת ייעוץ חינם ללא התחייבות.
+
+## Legal & Policy
+
+### Privacy Policy
+https://-cbd18062.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-cbd18062.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-cbd18062.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About קו האמת
+קו האמת is a business in the שירותי חקירה ואבטחה industry.
+
+## Target Audience
+עסקים (בדיקת אמינות עובדים), עורכי דין, פרטיים ומשפחות
+
+## Industry
+שירותי חקירה ואבטחה
+
+---
+
+# Additional Resources
+
+- **Sitemap**: https://-cbd18062.zappy5.app/sitemap.xml
+- **Robots.txt**: https://-cbd18062.zappy5.app/robots.txt
