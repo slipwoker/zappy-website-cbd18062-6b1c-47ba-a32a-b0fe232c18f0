@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kav-haemet.zappy5.app/sitemap.xml
+Sitemap: https://zappy-site-cbd18062-6b1c-47ba-a32a.onrender.com/sitemap.xml
