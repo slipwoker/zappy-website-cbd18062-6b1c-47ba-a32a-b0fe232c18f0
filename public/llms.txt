@@ -1,47 +1,57 @@
-# Business — Generative Engine Optimization Map
+# קו האמת — Generative Engine Optimization Map
+
+> A שירותי חקירה ואבטחה business.
 
 ---
 
 ## Pages
 
 ### דף הבית
-https://example.com
+https://kav-haemet.zappy5.app
 מכון פוליגרף מומלץ בישראל מציע שירותים לעורכי דין, בדיקת פוליגרף לעובדים ובדיקת פוליגרף פרטית. פתרונות חקירה ואבטחה מקצועיים.
 
 ### שירותים
-https://example.com/services
+https://kav-haemet.zappy5.app/services
 גלו את מגוון השירותים שלנו: בדיקת פוליגרף לעובדים, שירותים לעורכי דין, בדיקת פוליגרף פרטית וחקירות מקצועיות. מכון מומלץ בישראל.
 
 ### אודות
-https://example.com/about
+https://kav-haemet.zappy5.app/about
 הכירו את מכון קו האמת, מכון פוליגרף מומלץ בישראל. למעלה מ-15 שנות ניסיון בשירותים לעורכי דין, בדיקת פוליגרף לעובדים וחקירות פרטיות.
 
 ### צור קשר
-https://example.com/contact
+https://kav-haemet.zappy5.app/contact
 צרו קשר עם מכון קו האמת למתן שירותים לעורכי דין, בדיקת פוליגרף לעובדים ובדיקת פוליגרף פרטית. פגישת ייעוץ חינם ללא התחייבות.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://kav-haemet.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://kav-haemet.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://kav-haemet.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About קו האמת
+קו האמת is a business in the שירותי חקירה ואבטחה industry.
+
+## Target Audience
+עסקים (בדיקת אמינות עובדים), עורכי דין, פרטיים ומשפחות
+
+## Industry
+שירותי חקירה ואבטחה
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://kav-haemet.zappy5.app/sitemap.xml
+- **Robots.txt**: https://kav-haemet.zappy5.app/robots.txt
