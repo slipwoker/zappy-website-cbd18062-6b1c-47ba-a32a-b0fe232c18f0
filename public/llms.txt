@@ -1,6 +1,4 @@
-# קו האמת — Generative Engine Optimization Map
-
-> A שירותי חקירה ואבטחה business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -40,15 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About קו האמת
-קו האמת is a business in the שירותי חקירה ואבטחה industry.
-
-## Target Audience
-עסקים (בדיקת אמינות עובדים), עורכי דין, פרטיים ומשפחות
-
-## Industry
-שירותי חקירה ואבטחה
-
+## About Business
 ---
 
 # Additional Resources
