@@ -1596,3 +1596,502 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+/* === AI CUSTOMIZATION ADDITIONS === */
+/* Fix service features icons to have consistent styling */
+.service-features i {
+  color: #d4af37 !important;
+  font-size: 24px !important;
+}
+
+/* Clean up service detail images - remove duplicate properties */
+.service-detail-image img {
+  max-width: 100% !important;
+}
+
+/* === AI CUSTOMIZATION ADDITIONS === */
+/* WhatsApp Floating Button Styles */
+.whatsapp-float {
+  display: flex !important;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  z-index: 9999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background: #25D366 !important;
+  color: white !important;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background: #20BA5A !important;
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp-float i {
+  color: white !important;
+}
+
+/* RTL positioning for Hebrew site */
+html[lang="he"] .whatsapp-float,
+html[lang="ar"] .whatsapp-float,
+html[dir="rtl"] .whatsapp-float {
+  right: 20px;
+  left: auto;
+}
+
+/* LTR positioning (if needed for other languages) */
+html[lang="en"] .whatsapp-float,
+html[lang="es"] .whatsapp-float,
+html[lang="fr"] .whatsapp-float,
+html[dir="ltr"] .whatsapp-float {
+  left: 20px;
+  right: auto;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .whatsapp-float {
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    bottom: 15px;
+  }
+  
+  html[lang="he"] .whatsapp-float,
+  html[lang="ar"] .whatsapp-float,
+  html[dir="rtl"] .whatsapp-float {
+    right: 15px;
+  }
+  
+  html[lang="en"] .whatsapp-float,
+  html[lang="es"] .whatsapp-float,
+  html[lang="fr"] .whatsapp-float,
+  html[dir="ltr"] .whatsapp-float {
+    left: 15px;
+  }
+}
+
+/* === AI CUSTOMIZATION ADDITIONS === */
+/* Floating Contact Button Styles */
+.contact-float {
+  display: flex !important;
+  position: fixed;
+  bottom: 90px;
+  left: 20px;
+  background: var(--secondary-color) !important;
+  color: var(--primary-color) !important;
+  width: auto;
+  min-width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  z-index: 9998;
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 0 20px;
+  gap: 10px;
+  animation: contactBounce 2s ease-in-out infinite;
+}
+
+.contact-float:hover {
+  background: #c19b2e !important;
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(212, 175, 55, 0.5);
+  color: var(--primary-color) !important;
+}
+
+.contact-float i {
+  color: var(--primary-color) !important;
+  font-size: 24px;
+}
+
+.contact-float span {
+  font-weight: 600;
+  font-size: 16px;
+  white-space: nowrap;
+  color: var(--primary-color) !important;
+}
+
+/* RTL positioning for Hebrew site */
+html[lang="he"] .contact-float,
+html[lang="ar"] .contact-float,
+html[dir="rtl"] .contact-float {
+  left: 20px;
+  right: auto;
+}
+
+/* LTR positioning (if needed for other languages) */
+html[lang="en"] .contact-float,
+html[lang="es"] .contact-float,
+html[lang="fr"] .contact-float,
+html[dir="ltr"] .contact-float {
+  right: 20px;
+  left: auto;
+}
+
+/* Bounce animation */
+@keyframes contactBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .contact-float {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    border-radius: 25px;
+    bottom: 75px;
+    padding: 0;
+  }
+  
+  .contact-float span {
+    display: none;
+  }
+  
+  .contact-float i {
+    font-size: 20px;
+  }
+  
+  html[lang="he"] .contact-float,
+  html[lang="ar"] .contact-float,
+  html[dir="rtl"] .contact-float {
+    left: 15px;
+  }
+  
+  html[lang="en"] .contact-float,
+  html[lang="es"] .contact-float,
+  html[lang="fr"] .contact-float,
+  html[dir="ltr"] .contact-float {
+    right: 15px;
+  }
+}
+
+/* Enhanced nav CTA button visibility */
+.nav-cta-btn {
+  background: var(--secondary-color) !important;
+  color: var(--primary-color) !important;
+  border-color: var(--secondary-color) !important;
+  font-weight: 700 !important;
+  box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+}
+
+.nav-cta-btn:hover,
+.nav-cta-btn.active {
+  background: #c19b2e !important;
+  border-color: #c19b2e !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4);
+  color: var(--primary-color) !important;
+}
+
+/* === AI CUSTOMIZATION ADDITIONS === */
+/* Enhanced WhatsApp Floating Button - Override existing styles */
+.whatsapp-float {
+  display: flex !important;
+  position: fixed !important;
+  bottom: 20px !important;
+  left: 20px !important;
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 32px !important;
+  z-index: 9999 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+  background: #25D366 !important;
+  color: white !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+  animation: whatsappPulse 2s ease-in-out infinite !important;
+}
+
+.whatsapp-float:hover {
+  background: #20BA5A !important;
+  transform: scale(1.1) !important;
+  box-shadow: 0 6px 16px rgba(37, 211, 102, 0.5) !important;
+  color: white !important;
+}
+
+.whatsapp-float i {
+  color: white !important;
+  font-size: 32px !important;
+}
+
+/* Pulse animation for WhatsApp button */
+@keyframes whatsappPulse {
+  0%, 100% {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  50% {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3), 0 0 0 10px rgba(37, 211, 102, 0);
+  }
+}
+
+/* RTL positioning for Hebrew site */
+html[lang="he"] .whatsapp-float,
+html[lang="ar"] .whatsapp-float,
+html[dir="rtl"] .whatsapp-float {
+  left: 20px !important;
+  right: auto !important;
+}
+
+/* LTR positioning (if needed for other languages) */
+html[lang="en"] .whatsapp-float,
+html[lang="es"] .whatsapp-float,
+html[lang="fr"] .whatsapp-float,
+html[dir="ltr"] .whatsapp-float {
+  right: 20px !important;
+  left: auto !important;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .whatsapp-float {
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 26px !important;
+    bottom: 15px !important;
+  }
+  
+  .whatsapp-float i {
+    font-size: 26px !important;
+  }
+  
+  html[lang="he"] .whatsapp-float,
+  html[lang="ar"] .whatsapp-float,
+  html[dir="rtl"] .whatsapp-float {
+    left: 15px !important;
+  }
+  
+  html[lang="en"] .whatsapp-float,
+  html[lang="es"] .whatsapp-float,
+  html[lang="fr"] .whatsapp-float,
+  html[dir="ltr"] .whatsapp-float {
+    right: 15px !important;
+  }
+}
+
+/* === AI CUSTOMIZATION ADDITIONS === */
+/* Trust Badges in Hero Section */
+.trust-badges {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.trust-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  backdrop-filter: blur(10px);
+}
+
+.trust-badge i {
+  color: #22c55e;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .trust-badges {
+    gap: 1rem;
+  }
+  
+  .trust-badge {
+    font-size: 13px;
+    padding: 0.6rem 1rem;
+  }
+}
+
+/* Service Icons for Target Audience Cards */
+.service-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  margin: 0 auto 1.5rem;
+}
+
+/* Disclaimer Box */
+.disclaimer-box {
+  background: rgba(212, 175, 55, 0.1);
+  border-left: 4px solid var(--secondary-color);
+  padding: 1.25rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.disclaimer-box p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.disclaimer-box strong {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+/* Process Duration Note */
+.process-duration {
+  text-align: center;
+  margin-top: 2.5rem;
+  padding: 1.25rem;
+  background: rgba(212, 175, 55, 0.1);
+  border-radius: 8px;
+}
+
+.process-duration p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.process-duration i {
+  color: var(--secondary-color);
+  margin-left: 0.5rem;
+  font-size: 18px;
+}
+
+/* FAQ Section Styles */
+.faq-section {
+  background: var(--bg-light);
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.faq-item {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faq-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.faq-item h3 {
+  color: var(--primary-color);
+  font-size: 18px;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.faq-item h3 i {
+  color: var(--secondary-color);
+  font-size: 22px;
+}
+
+.faq-item p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Contact Options in CTA Section */
+.contact-options {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contact-options span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-options i {
+  font-size: 18px;
+}
+
+.contact-options .separator {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Update Primary Button Color to Green */
+.btn-primary {
+  background: #22c55e !important;
+  color: #ffffff !important;
+  border-color: #22c55e !important;
+}
+
+.btn-primary:hover {
+  background: #16a34a !important;
+  border-color: #16a34a !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
+  color: #ffffff !important;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  .faq-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .contact-options {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .contact-options .separator {
+    display: none;
+  }
+  
+  .disclaimer-box {
+    padding: 1rem;
+  }
+  
+  .process-duration {
+    padding: 1rem;
+  }
+}
